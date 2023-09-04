@@ -1,0 +1,140 @@
+﻿Objetivo de la Práctica:
+El alumno conocerá y utilizará herramientas de software que ofrecen las Tecnologías de la Información y Comunicación que le permitan realizar actividades y trabajos académicos de forma organizada y profesional a lo largo de la vida escolar, tales como manejo de repositorios de almacenamiento y buscadores con funciones avanzadas.
+Personalmente, agregaría el objetivo de que posteriormente a la práctica creemos dentro de nuestros repositorios carpetas de evidencias académicas o de información personal que nos sirva como respaldo de las mismas y que a su vez se vaya creando un portafolio de trabajo que será de mucha ayuda al egresar de la carrera y adentrarnos al mundo laboral.
+Introducción:
+El uso de las TIC dentro de nuestro desarrollo como profesionales de la ingeniería es fundamental, así que su uso y manejo adecuado nos podrá ayudar para registrar información, almacenar la misma en repositorios y aprender a buscar información selectivamente en internet.
+Comenzaremos por definir lo que es un controlador de versiones, el cual corresponde al sistema que lleva a cabo los registros en os cambios sobre uno o más archivos a lo largo del tiempo, siendo de gran utilidad para recuperar versiones, comparar cambios e intrgramente respaldando las versiones de la información que tengamos. Existen distintos tipos de controladores de versiones como el local (los cambios se lmacenan en una base de datos local), centralizado (un servidor central lleva a cabo el control de versiones, sirve para el trabajo colaborativo), distribuido (todos los usuarios tienenuna copia del proyecto, estando almacenado en varios equipos al mismo tiempo). Dentro de los sistemas de control de versiones encontramos a los Git, sistemas de control de versiones de código libre, siendo el más usado en el mundo.
+Un repositorio es el directorio en el que se encuentran todos los archivos que integran a un proyecto. Existen repositorios locales y remotos, los primeros se encuentran en el equipo del usuario, solo el dueño accede a ellos, mientras que los segundos se alojan en la nube, donde se puede acceder externamente desde internet. Dentro de los ejemplos de repositorios encontramos a Github, que nos otorga el servicio de un repositorio remoto, siendo una plataforma de almacenamiento para el control de versiones y coaboración.
+En un repositorio podemos realizar distintas operaciones, como lo es el agregar archivos, siendo los creados o con nuevas modificaciones. Commit es una operación encargada de registrar los archivos agregados con la finalidad de registrar los cambios que realicemos. También encontramos las Ramas o Branches, las cuales son nodos o tal cual como su nombre lo dice, ramas de las cuales podremos realizar nuevas modificaciones sin afectar a archivos previos.
+El almacenamiento de los repositorios remotos se da en la nube, un servicio en el cual los datos de un sistema se almacenan, se administran y son respaldados remotamente, siendo posible acceder a ellos mediante una red como el internet. De esta forma es posible editar un documento con varios usuarios, haciendo que todos los usuarios puedan trabajar sobre esos archivos mediante el internet.
+Dentro de las herramientas que los softwares de trabajo remoto nos otorgan encontramos por ejemplo a : Google Forms (reolecta información por medio de formularios y la plasma en una hoja de cálculo), OneNote (herramienta para almacenar apuntes como un cuaderno en la nube), Dropbox y Google Drive (almacenamiento de archivos en internet). Estas mencionadas anteriormente están a la mano de cualquier usuario cuyo sistema operativo permita su descarga.
+Contamos también con los buscadores de Internet, los cules son aplicaciones que rastrean el internet, clasificando y organizando la información para poder mostrarla, esto realizado mediante algoritmos de búsqueda, propios de cada uno de ellos. Dentro de los buscadores encontramos a Google, el cual utiliza el algoritmo conocido como PageRank, que representa la popularidad que una página tiene en internet, es el motor más utilizado en la web, fue creado en 1997 por Larry Page y Sergey Brin.
+En el desarrollo de esta práctica veremos algunos de los comandos de búsqueda y herramientas de Google y veremos cómo crear nuestra cuenta dentro de Github para crear un repositorio personal.
+Desarrollo:
+-Búsquedas avanzadas con la temática de programación mediante comandos de búsqueda y herramientas de Google:
+Figura 1_ Comando or para excluir terminos, en este caso, buscamos imagenes de programación o de matemáticas sin incluir imagenes de ingeniería:  
+Figura 2_ Comando “” comillas para encontrar datos específicos, relacionados a un solo tema, en este caso buscamos todos los datos pertenecientes al desarrollo de páginas web:
+  
+
+Figura 3_ Comando + para que agregue una palabra y arroje resultados que la incluya, como por ejemplo, el desarrollo de páginas web y que sea en lenguaje C:
+  
+
+Figura 4_ Comando Define para conocer el significado de una palabra, en este casom queremos saber el significado de la palabra programación:  
+
+
+Figura 5_ Comando Site (sirve para buscar en un sitio específico) y Tilde (~ (buscar cosas relacionadas con una palabra) y .. (buscar en un intervalo de números). En este caso quiero encontrar en Platzi cursos de programar del 2022 a 2023:
+  
+
+Figura 6_ Comandos Intitle (encuentra palabras como títulos), Intext (restringir resultados con un término específico) y Filetype (para obtener tipos de archivos en particular). En este caso quiero encontrar un documento pdf acerca de programación de aplicaciones y que se relacionen con el sistema operativo Android:  
+Figura 7_ Herramienta Calculadora, simplemente agregamos la ecuación en la barra de búsqueda. En este caso quiero encontrar el resultado del seno de 2π radiantes más el coseno de π radianes:
+  
+
+Figura 8_ Herramienta Convertidor de Unidades, obtiene la equivalencia entre dos sistemas de unidades, en este caso lo usaré para saber cuántos gigabytes equivaen a 1 terabyte.  
+Figura 9_ Herramienta de Gráficas en 2D, en este caso solamente debemos insertar una funcion en la barra de búsqueda. En este caso quiero saber la gráfica del seno de x desde el 0 hasta el 4.5
+   
+Figura 10_ Herramienta Google Académico, al buscar “google scholar” o “google académico” encuentro un buscador especializado al mundo académico con archivos de distintas disciplinas en múltiples formatos.
+  
+
+Figura 11_ Comando author, puedo filtrar resultados y que me arroje articulos, libros, etc, pero de una persona en específico. En este caso quiero resultados sobre algoritmos creados por Larry Page. Además puedo ver características que Google Académico me permite modificar, como lo es el tipo de ordentamiento, fechas de emisión, idiomas, etc.
+  
+
+Figura 12_ Herramienta Google Imagenes. permite realizar búsquedas a partir de iagenes que tengo almacenadas, en este caso buscaré resultados relacionados con mi imagen del logo de python.
+  
+
+-Creación de un repositorio en Github:
+Figura 13_ Página de inicio en Github
+  
+
+Figura 14_ Creando mi usuario, contraseña y así creando mi cuenta
+  
+
+
+
+
+
+Figura 15_ Recibiendo el correo de confirmación y creando mi cuenta en Github
+  
+
+Figura 16_  Homepage de mi cuenta
+  
+
+
+
+
+
+Figura 17_ Inicio un proyecto
+  
+
+Figura 18_ Creando un nuevo repositorio llamado (practica1_fdp)
+  
+
+
+
+
+
+Figura 19_ Creo un nuevo archivo
+  
+
+Figura 20_ Modifico este nuevo archivo llamándolo “datos”
+  
+
+
+
+
+
+Figura 21_ Commit nuevo archivo
+  
+
+Figura 22_ Confirmación de la modificación del archivo
+  
+
+
+
+
+
+Figura 23_ Cargo archivos al nuevo proyecto, en este caso subiré el escudo de la facultad y de la Universidad.
+  
+
+Figura 24_ Edito el archivo
+  
+
+
+
+
+
+
+
+
+
+Figura 25_ Historial del Rrepositorio
+  
+
+Figura 26_ Subo el actual archivo al repositorio. Y registro el commit como “Reporte práctica 1”:
+Figura 26_ Link del repositorio
+Figura 26_ Link del repositorio
+
+
+
+
+Conclusiones:
+E
+Referencias:
+Referencias 
+1. http://rypress.com/tutorials/git
+2. https://git-scm.com/book/es/v1/Empezando-Acerca-del-control-deversiones
+3. https://www.google.com.mx/
+4. http://scholar.google.es/
+5. http://www.google.com/imghp
+6. http://www.youtube.com/watch?v=wKJ9KzGQq0w
+7. http://www.youtube.com/watch?v=nxi9c6xBb0U
+8. https://www.dropbox.com/
+9. http://bc.unam.mx/cultural/inicio/vis_virt/main.html
+10. http://www.inah.gob.mx/index.php/catalogo-paseos-virtuales
+11. https://www.google.com/maps/views/home
+12. https://maps.google.com/
+13. http://translate.google.com/
+14. http://www.google.com/earth/
+15. http://news.google.com/
+16. https://adwords.google.com/
+17. http://books.google.com/
+18. https://groups.google.com/
